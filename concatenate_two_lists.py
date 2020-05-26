@@ -48,7 +48,7 @@ llist2.append(6)
 llist2.append(7)
 llist2.append(8)
 llist2.append(9)
-#llist.merge()
+llist.merge()
 
 
 llist.printlist()
