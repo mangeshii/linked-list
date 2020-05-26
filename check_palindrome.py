@@ -26,22 +26,8 @@ class Linkedlist:
             lastnode = lastnode.next
         lastnode.next = newnode
 
-  
-       
-    def palindrome(self,string):
-        return string==string[::-1]
-
-
-    def merge(self):
-        head1=llist.head
-        head2=llist2.head   
-        while head1.next is not None:
-            head1=head1.next
-        if head1.next is None:
-            head1.next=head2
-        
-        
-
+    def palindrome(self, string):
+        return string == string[::-1]
 
 
 llist = Linkedlist()
@@ -50,15 +36,12 @@ llist.append(2)
 llist.append(3)
 llist.append(4)
 
-llist2=Linkedlist()
+llist2 = Linkedlist()
 llist2.append(6)
 llist2.append(7)
 llist2.append(8)
 llist2.append(9)
-llist.merge()
-
 
 
 llist.printlist()
-
 
